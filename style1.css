@@ -1,0 +1,573 @@
+@import url(@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+  font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	line-height: 2rem;
+  overflow: hidden;
+   overflow-y: scroll;
+
+
+}
+
+.container{
+	width: 100%;
+
+}
+ header{
+ 	display: flex;
+ 	flex-direction: row;
+  width: 100%;
+ 	height: 60px;
+ 
+ 	justify-content: center;
+ 	align-items: center;
+ 	border-bottom: 2px #ff4500 solid;
+  background: rgba(0,0,0, 0.6);
+ 
+
+  
+
+ }
+
+ #branding{
+ 	display: flex;
+ 	flex: 1;
+ 	margin: 0px 30px;
+ }
+
+ #branding span{
+ 	color: #ff4500;
+ }
+
+ #nav-bar{
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+	margin: 0px 30px;
+ }
+ #nav-bar ul{ 
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+
+  }
+
+  #nav-bar ul li {
+  	padding-left: 15px;
+  }
+
+  #nav-bar ul li a{
+    letter-spacing: 1px;
+  	text-decoration: none;
+  	color: #fff;
+  	transition: all 0.5s;
+  }
+
+  #nav-bar ul li a:hover {
+  	color: #ff4500;
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background: url(./img/code.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+#home h1{
+  font-size: 4rem;
+  margin-bottom: 2rem;
+
+}
+#home span{
+  color:  #ff4500;
+}
+#home p{
+  width: 80%;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-align: left;
+}
+#get-course{
+  width: 100%;
+  height: 120px;
+  background:  #555;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-bottom: 2px #ff5a00 dashed
+}
+
+#get-course h1{
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+#get-course p{
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+#get-course .email-input{
+  width: 28%;
+  height: 2rem;
+  margin-top: 10px;
+  padding: 0.5rem 0.8rem;
+  border-radius: 3px;
+  border: none;
+}
+#get-course .btn-submit{
+  padding: 5px 8px;
+  height: 2rem;
+  width:60px;
+  background:  #ff5a00;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+#get-course .btn-submit:hover{
+  background: #ffa500;
+}
+#price{
+  background: #555;
+  height: 60px;
+  color: #fff;
+  border-bottom: 2px #ff5a00 solid;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#price p{
+  font-size: 2rem;
+}
+
+#courses{
+    display: flex;
+    flex-direction:column;
+    color: #181818;
+    width: 100%;
+    height: 100vh;
+    background:#f4f4f4;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+  }  
+
+  #top{
+    display: flex;
+    flex: row;
+    flex: 1;
+  
+  }
+
+  #top .box-images {
+  margin: auto;
+  text-align: center;
+
+  }
+  #top .box-images img{
+    width: 100px;
+    height: 100px;
+
+  }
+
+  #bot{
+    display: flex;
+    flex: row;
+    flex: 1;
+    margin-top: 15px;
+  }
+  #bot .box-images {
+  padding-top: 15px;
+  margin: auto;
+  text-align: center;
+}
+
+  #bot .box-images img{
+    width: 100px;
+    height: 100px;
+}
+
+h2{
+  margin-bottom: 8px;
+}
+
+.click-btn{
+  text-decoration: none;
+  color: #fff;
+  background:   #ff5a00; 
+  padding: 5px 25px;
+ 
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all ease-out 0.5s;
+}
+.click-btn:hover{
+  opacity: 0.5;
+
+}
+#about-title{
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #555;
+}
+
+#about-title h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+#about-title .line{
+  height: 8px;
+  width: 230px;
+  background:  #ff6400;
+  border: none;
+}
+#about {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+ background: #ccc;
+}
+
+#about-left{
+ 
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+ 
+
+}
+#about-left .profile{
+  text-align: center;
+   margin-bottom: 15px;
+ 
+
+  }
+#about-left img{
+  width: 35%;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 8px #888888;
+   
+}
+
+#about-left .details{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: auto;
+}
+
+#about-left .details label{
+  letter-spacing: 2px;
+  
+  }
+
+#about-left .ed-contact ul{
+   padding-top: 1rem;
+   display: inline-flex;
+   margin: auto;
+   list-style:none;
+}
+#about-left .ed-contact  ul li a{
+
+  padding-left: 1rem;
+
+}
+#about-left .subscribe{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  margin-top: 2rem; 
+}
+#about-left .subscribe h2{
+  letter-spacing: 2px;
+}
+
+#about-left .btn-subscribe{
+  width: 100%;
+  height: 2.5rem;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  background: #ff2d00;
+  cursor: pointer;
+  transition: all ease-out 0.5s;
+}
+#about-left .btn-subscribe:hover{
+ opacity: 0.7;
+}
+#about-right{
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+}
+#about-right .about-content{
+  width: 80%;
+  margin-top: -8rem;
+  margin: auto;
+}
+#about-right .about-content h1{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+
+}
+#about-right .about-content span{
+color: #ff4500;
+
+}
+#about-right .about-content .webline{
+    margin-bottom: 2rem;
+    background: #555;
+
+  }
+  #contact-title{
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #555;
+
+}
+
+#contact-title h1{
+  font-size: 3rem;
+ margin-top: 2rem;
+ margin-bottom: 1rem;
+}
+#contact-title .line{
+  height: 8px;
+  width: 230px;
+  background: skyblue;
+  border: none;
+}
+
+#contacts{
+  display: flex;
+  flex-direction: row;
+  color:#555;
+  width: 100%;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#contact-left{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 80%;
+  
+
+}
+
+#contact-left .contact-bg{
+  display: flex;
+  flex-direction: row;
+  background: #ccc;
+  height: 150px;
+  margin:auto;
+  box-shadow: 5px 10px 8px #888888;
+}
+#contact-left .content{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+  flex: 3;
+  padding:5px 8px;
+  width: 100%;
+
+}
+#contact-left .content img{
+  width: 100px;
+  height: 90px;
+ 
+}
+#contact-left .content p{
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  letter-spacing: 2px;
+}
+
+
+#contact-right{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: auto;
+  border-left: 1px #555 dotted;
+}
+
+#contact-right h1{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  padding-left: 5px;
+}
+
+#contact-right hr{
+  width: 170px;
+  height: 5px;
+  background: #ff6400;
+  border: none;
+
+
+}
+
+#contact-right p{
+  text-align: left;
+  margin-top: 20px;
+  font-size: 2rem;
+  padding-left: 5px;
+}
+
+#icons{
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  border-top: 1px #555 solid;
+}
+
+
+#icons .icon-list{
+ display: inline-flex;
+ }
+ #icons .icon-list ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+ }
+
+.icon-list ul li a{
+      padding: 1rem;
+}
+/*font awesome color*/
+.fa-facebook-square {
+  color: #3b5998;
+
+}
+.fa-twitter-square {
+  color: #1da1f2;  
+}
+.fa-google-plus-square {
+  color: #db4437  
+}
+.fa-youtube{
+  color: #ff0000;
+}
+.fa-github{
+  color:#555;
+} 
+.main-footer{
+  background: #555;
+  text-align: center;
+  height: 50px;
+  align-items: center;
+
+}
+.main-footer p{
+  padding-top: 10px;
+
+}
+  @media(max-width: 845px){
+
+    
+    #contacts{
+      flex-direction: column;
+      height: 80vh;
+    }
+
+    #contact-left{
+      margin-bottom: 1rem;
+    }
+     #contact-right{
+       padding-left: 1rem;
+       border-left: none;
+     }
+   }
+
+  @media (max-width: 768px) {
+
+  	header{
+  		display: flex;
+  		flex-direction: column;
+  		
+  		padding: 50px;
+      }
+  	
+  }
+@media(max-width: 845px){
+  #about{
+    display: flex;
+    flex-direction: column;
+    height: 130vh;
+ 
+  }
+  #home p{
+      text-align: center;
+  }
+
+  #get-course{
+    height: 150px;
+  }
+  #get-course .email-input{
+    width: 50%;
+  }
+  #price{
+    height: 90px;
+
+
+  }
+  #about-left .profile{
+    margin-top: 20px;
+  }
+
+  #about-right .about-content h1{
+    text-align: center;
+  }
+  #about-left img{
+  width: 35%;
+  height: 150px;
+}
+  }
